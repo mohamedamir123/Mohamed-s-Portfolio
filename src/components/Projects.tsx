@@ -43,17 +43,16 @@ export default function Projects() {
           "A responsive landing page with a clean and modern design for a coffee shop",
         image: DejaImg,
         tags: ["React", "Tailwind", "JavaScript"],
-        github:
-          "https://github.com/mohamedamir123/Fylo-dark-theme-landing-page",
-        demo: "https://fylo-dark-theme-landing-page-omega-seven.vercel.app/",
+        github: "https://github.com/mohamedamir123/Deja-Brewed",
+        demo: "https://deja-brewed.vercel.app/",
       },
       {
         title: "GamingHub",
         description: "An Online Gaming Store Project",
         image: GamingHubImg,
         tags: ["HTML", "CSS", "JavaScript"],
-        github: "https://github.com/mohamedamir123/Deja-Brewed",
-        demo: "https://deja-brewed.vercel.app/",
+        github: "https://github.com/mohamedamir123/GamingHub",
+        demo: "https://gaming-hub-red-ten.vercel.app/",
       },
       {
         title: "Crispy-Chicken-Burgers",
