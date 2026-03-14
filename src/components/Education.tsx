@@ -3,7 +3,7 @@ import { ScrollReveal } from "./ScrollReveal";
 export default function Education() {
     const education = [
       {
-        degree: "Bachelor of Science in Computer Science",
+        degree: "Bachelor Computer Science",
         institution: "Higher Technological Institute",
         location: "Sharqia, 10th of Ramadan City",
         startDate: "September 2024",
