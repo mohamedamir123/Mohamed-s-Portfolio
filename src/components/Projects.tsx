@@ -1,57 +1,68 @@
 import { ExternalLink, Github } from "lucide-react";
 import { ScrollReveal } from "./ScrollReveal";
+import PantoImg from "../assets/panto-furniture.png";
+import BookmarkImg from '../assets/bookmark.jpg';
+import FyloImg from '../assets/fylo.jpg';
+import GamingHubImg from '../assets/gaming-hub.png';
+import CrispyImg from "../assets/crispy-chicken.png";
+import DejaImg from "../assets/deja-brewed.png";
 
 export default function Projects() {
-  const projects = [
-    {
-      title: "E-Commerce Platform",
-      description: "A full-featured online shopping platform with cart functionality, payment integration, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-      tags: ["React", "Node.js", "MongoDB"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Task Management App",
-      description: "Collaborative task management tool with real-time updates, team boards, and productivity analytics.",
-      image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80",
-      tags: ["TypeScript", "React", "Firebase"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Beautiful weather application with forecasts, location search, and interactive maps.",
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&q=80",
-      tags: ["React", "API Integration", "Charts"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Portfolio Builder",
-      description: "A drag-and-drop portfolio builder allowing users to create stunning portfolios without coding.",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80",
-      tags: ["Next.js", "Tailwind", "DnD"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for tracking social media metrics across multiple platforms.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-      tags: ["React", "D3.js", "REST API"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Fitness Tracking App",
-      description: "Mobile-first fitness app for tracking workouts, nutrition, and progress over time.",
-      image: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&q=80",
-      tags: ["React Native", "TypeScript", "Charts"],
-      github: "#",
-      demo: "#"
-    }
-  ];
+   const projects = [
+      {
+        title: "Panto Furniture",
+        description:
+          "A landing page for a furniture company showcasing their products and services.",
+        image: PantoImg,
+        tags: ["Typescript", "React", "Next.js", "MUI", "Tailwind"],
+        github: "https://github.com/mohamedamir123/Panto-Furniture",
+        demo: "https://panto-furniture-indol.vercel.app/",
+      },
+      {
+        title: "Bookmark Landing Page",
+        description:
+          "A responsive bookmark landing page with a clean and modern design from Frontend Mentor.",
+        image: BookmarkImg,
+        tags: ["React", "Typescript", "MUI", "Shadcn/ui"],
+        github: "https://github.com/mohamedamir123/Bookmark-landing-page",
+        demo: "https://bookmark-landing-page-brown-eight.vercel.app/",
+      },
+      {
+        title: "Fylo Landing Page",
+        description:
+          "A responsive landing page with a clean and modern design in dark theme from Frontend Mentor.",
+        image: FyloImg,
+        tags: ["React", "Tailwind", "JavaScript"],
+        github:
+          "https://github.com/mohamedamir123/Fylo-dark-theme-landing-page",
+        demo: "https://fylo-dark-theme-landing-page-omega-seven.vercel.app/",
+      },
+      {
+        title: "Deja Brewed Landing Page",
+        description:
+          "A responsive landing page with a clean and modern design for a coffee shop",
+        image: DejaImg,
+        tags: ["React", "Tailwind", "JavaScript"],
+        github: "https://github.com/mohamedamir123/Deja-Brewed",
+        demo: "https://deja-brewed.vercel.app/",
+      },
+      {
+        title: "GamingHub",
+        description: "An Online Gaming Store Project",
+        image: GamingHubImg,
+        tags: ["HTML", "CSS", "JavaScript"],
+        github: "https://github.com/mohamedamir123/GamingHub",
+        demo: "https://gaming-hub-red-ten.vercel.app/",
+      },
+      {
+        title: "Crispy-Chicken-Burgers",
+        description: "An Online Fast Food Website",
+        image: CrispyImg,
+        tags: ["HTML", "CSS", "JavaScript"],
+        github: "https://github.com/mohamedamir123/Crispy---Chicken-Burgers",
+        demo: "https://mohamedamir123.github.io/Crispy---Chicken-Burgers/",
+      },
+    ];
 
   return (
     <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
