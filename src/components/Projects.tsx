@@ -1,7 +1,7 @@
 import { ExternalLink, Github } from "lucide-react";
 import { ScrollReveal } from "./ScrollReveal";
 
-export function Projects() {
+export default function Projects() {
   const projects = [
     {
       title: "E-Commerce Platform",
@@ -119,4 +119,3 @@ export function Projects() {
     </section>
   );
 }
-
