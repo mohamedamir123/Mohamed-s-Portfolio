@@ -1,28 +1,6 @@
-import { Mail, MapPin, Phone, Send } from "lucide-react";
-import { useState } from "react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { ScrollReveal } from "./ScrollReveal";
 export default function Contact() {
-    const [formData, setFormData] = useState({
-      name: "",
-      email: "",
-      message: "",
-    });
-
-    const handleSubmit = (e: React.FormEvent) => {
-      e.preventDefault();
-      // Handle form submission (would connect to backend in real app)
-      alert("Thank you for your message! I'll get back to you soon.");
-      setFormData({ name: "", email: "", message: "" });
-    };
-
-    const handleChange = (
-      e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-    ) => {
-      setFormData({
-        ...formData,
-        [e.target.name]: e.target.value,
-      });
-    };
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto">
