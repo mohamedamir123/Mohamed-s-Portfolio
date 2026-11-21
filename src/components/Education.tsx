@@ -7,7 +7,7 @@ export default function Education() {
         institution: "Higher Technological Institute",
         location: "Sharqia, 10th of Ramadan City",
         startDate: "September 2024",
-        endDate: "Expected September 2028",
+        endDate: "Expected July 2028",
         status: "In Progress",
         description:
           "Focused on software engineering, web development, and computer science fundamentals. Maintained a strong academic record while working on various projects.",
